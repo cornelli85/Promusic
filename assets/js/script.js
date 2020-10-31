@@ -7,7 +7,7 @@ $(document).ready(function () {
     setRecentSearches();
 
     /* TIM */
-    var apiKeyYT = "AIzaSyDdYbxab_e4wYPLQ1aBj9bDswbk5VH26wI";
+    var apiKeyYT = "AIzaSyD2wla1QNf_ror_m3lmHMZAEU9YQRkgsQ8";
     var queryURL = "https://www.googleapis.com/youtube/v3/search?part=snippet&channelID=UC2pmfLm7iq6Ov1UwYrWYkZA&maxResults=6&regionCode=US&type=video&videoCategoryId=10&key=" + apiKeyYT;
     $.ajax({
         url: queryURL,
@@ -100,7 +100,7 @@ $(document).ready(function () {
             // Build our search string.
             var search = "";
             search += artist + " " + song;
-            var apiKey = "AIzaSyCou3PEzut2mTwROkqH9_uxZHK1wktkG-E"
+            var apiKey = "AIzaSyD2wla1QNf_ror_m3lmHMZAEU9YQRkgsQ8"
             var queryURL = "https://www.googleapis.com/youtube/v3/search?part=snippet&key=" + apiKey + "&type=video&q=" + search;
 
             // Create our AJAX call, using the jQuery .ajax() method.
